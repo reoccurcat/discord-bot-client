@@ -1,8 +1,7 @@
-token = input("Enter your bot token:\n> ")
-print("Attempting login...\n")
 import discord
 from discord.ext import commands
-import sys
+token = input("Enter your bot token:\n> ")
+print("Attempting login...\n")
 intents = discord.Intents.all()
 description = ""
 client = commands.Bot(command_prefix="", description=description, intents=intents)
